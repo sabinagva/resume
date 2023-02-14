@@ -3,20 +3,58 @@
     left: 20%;
     position: absolute;
 }
-
 .contact-info {
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    /* text-align: center; */
 }
 .section-header {
     text-align: center;
+    color: rgb(69, 142, 244);
 }
 .role-title {
     display: flex;
     justify-content: space-between;
 }
-p
-{
+p {
   margin:0;
   padding:0;
-  
+}
+.email {
+    justify-content: center;
+    display: flex;
+    text-align: center;
+}
+.number {
+    justify-content: center;
+    display: flex;
+    text-align: center;
+} 
+.sabina {
+    display: flex;
+    justify-content: center;
+    color: rgb(69, 142, 244);
+}
+.link-text {
+    text-decoration: none;
+    color: black;  
+}
+.active {
+    color: gold;
+}
+.school {
+    animation: color-change 1s infinite;
+}
+@keyframes color-change {
+    0% { color: #7A0019; }
+    50% { color: #FFCC33; }
+    100% { color: #7A0019; }
+}
+.school2 {
+    animation: color-change2 1s infinite;
+}
+@keyframes color-change2 {
+    0% { color: red; }
+    50% { color: grey; }
+    100% { color: red; }
 }
